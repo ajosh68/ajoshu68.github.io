@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/1-beach-sea-photography.jpg) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+.box{width:450px;
+    background: rgba(0,0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(240, 237, 232);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+.box-img{border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+        
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.box h5{
+    font-size: 25px;
+    letter-spacing: 3px;
+    
+}
+    
+.box h3{
+    color: rgb(254, 252, 252);
+    font-size: medium;
+}
+
+nav ul li{
+    display: flex;
+    list-style: none;
+    margin: 50px 20px;
+    width: 100%;
+    }
+    
+nav ul li a {
+        text-decoration: none;
+        color: #f4f2ee;
+        font-weight: bold;
+     }
+nav ul li a:visited{
+        color: #f8f9fa;
+}
+nav ul li a:hover {
+        color: red;
+    
+}
+nav{display: inline-block;
+    width: 84%;
+    padding: 5px 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: url(images/1-beach-sea-photography.jpg) no-repeat;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .box{width:300px;
+        background: rgba(0,0, 0, 0.4);
+        padding: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        color: rgb(240, 237, 232);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #f4f2ee;
+        font-weight: bold;
+        display: inline-block;
+        justify-content: space-between;
+        width: auto;
+        list-style: none;
+        margin: 50px 20px;
+     }
+    nav ul li a:visited{
+        color: #f8f9fa;
+    }
+    nav ul li a:hover {
+        color: red;
+    
+    }
+    nav{display: inline;
+    width: 80%;
+    margin: 5px 0px;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+}
